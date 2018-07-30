@@ -5,7 +5,6 @@ class PoolManager:
 
     @staticmethod
     def delete_player(player):
-        #Verificar que el usuario existe
         if player is None:
             print("No existe el usuario")
         else:
