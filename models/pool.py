@@ -1,6 +1,7 @@
 class Pool:
     finish = False
     players = {}
+    number_balls = 15
 
     def __init__(self):
         pass
