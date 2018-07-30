@@ -18,7 +18,7 @@ _Suggestions to solve the problem_
 
 1. Functions:  
     1.1 Delete player  
-    1.2 Avoid having negative score or overflow in score
+    1.2 Avoid having negative score or overflow in score   
     1.3 Show existing balls in the table
         
 ## 3rd product increment
