@@ -10,8 +10,10 @@ delete = "n"
 
 while yes == "s":
     name = input("Introduce el nombre")
+    type_ball = input("Introduce el tipo de bola lisa/rayada")
     player = Player(name)
     PoolManager.add_player(pool, player)
+    PlayerManager.add_type_ball(player, type_ball)
     yes = input("Agregar otro usuario s/n")
 
 if yes == "n":
